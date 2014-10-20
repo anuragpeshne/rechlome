@@ -16,8 +16,8 @@
 		"default_popup": "popup.html"
 	},
 	"content_scripts": [{
-		"matches": ["http://www.facebook.com/*"],
+		"matches": ["https://www.facebook.com/"],
 		//"css": ["mystyles.css"],
-		"js": ["jquery.js", "fb.js"]
+		"js": ["jquery.js", "content.js"]
 	}]
 }

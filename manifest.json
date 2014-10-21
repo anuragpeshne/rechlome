@@ -2,7 +2,6 @@
 	"manifest_version": 2,
 	"name": "Rechlome",
 	"version": "1.0",
-	//	"default_locale": "en",
 	"description": "Reclaim your Chrome!",
 	"icons": { "128": "sword.icon.png" },
 	"background": {
@@ -16,8 +15,7 @@
 		"default_popup": "popup.html"
 	},
 	"content_scripts": [{
-		"matches": ["https://www.facebook.com/"],
-		//"css": ["mystyles.css"],
-		"js": ["jquery.js", "content.js"]
+		"matches": ["https://www.facebook.com/*"],
+		"js": ["jquery.js", "fb.js"]
 	}]
 }
